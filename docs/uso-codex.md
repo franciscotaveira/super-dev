@@ -80,6 +80,16 @@ C:\Users\SEU_USUARIO\.codex\skills
 
 Depois abra uma nova conversa/sessao do Codex para recarregar a lista de skills.
 
+## Reduzir skills no seletor `@`
+
+Se o seletor `@` ficar lento por excesso de skills, siga:
+
+```text
+docs/codex-modo-leve.md
+```
+
+Nao versionar seu `config.toml` pessoal no repositorio.
+
 ## Fluxo recomendado
 
 1. `00-🧠-SUPERDEV` + `00-🧭-PROCESSO` quando precisar se orientar.

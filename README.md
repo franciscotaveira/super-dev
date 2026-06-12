@@ -211,6 +211,16 @@ O agente fecha a missao com relatorio final.
 | `04-🧪-TESTAR` | `@superdev-testar` |
 | `05-📦-ENTREGAR` | `@superdev-entregar` |
 
+## Codex em modo leve
+
+Se o seletor `@` estiver mostrando muitas skills e demorando para carregar, use o guia:
+
+```text
+docs/codex-modo-leve.md
+```
+
+Ele explica como deixar visiveis apenas os aliases do SuperDev e como desativar plugins extras com backup.
+
 ## Filosofia
 
 SuperDev 2.0 nao e um framework academico.
