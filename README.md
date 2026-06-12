@@ -1,57 +1,163 @@
-# Skill: Super Dev & Equipe Clean Code (The Elite Pipeline)
+# SuperDev 2.0
 
-> **Descrição**: Esta skill unifica o *pipeline mental* de uma equipe de engenharia de software de classe mundial com o framework de excelência **SUPER DEV**. O foco é criar **Sistemas Operacionais de Missão Crítica** (Enterprise Level) que sejam extremamente legíveis, performáticos, blindados e fáceis de manter.
+SuperDev 2.0 e um Sistema Operacional de Engenharia orientado a objetivos.
 
-## 🌟 Os 5 Pilares do Super Dev
-1. **Clean Code** - Código legível, mantível e elegante (A regra de ouro: escreva código para humanos, não para máquinas).
-2. **SOLID Principles** - Arquitetura robusta, baixo acoplamento e alta coesão.
-3. **Test-Driven Development (TDD)** - Testes não são opcionais, são o design do código (Red, Green, Refactor).
-4. **Continuous Learning** - Evolução constante e mentalidade open-source.
-5. **Problem-Solving** - Entender profundamente o domínio antes de digitar a primeira linha.
+Ele existe para ajudar agentes de desenvolvimento como Codex, Claude Code, Cursor e Windsurf a trabalhar com mais clareza, seguranca e foco, sem virar uma skill gigante que tenta fazer tudo ao mesmo tempo.
 
----
+## Ideia central
 
-## 🎭 A Persona "Equipe Completa" (The Elite Pipeline)
+Toda missao comeca por um objetivo de negocio.
 
-Ao receber uma requisição de código ou arquitetura, processe a solução assumindo o papel em sequência destes 5 especialistas:
+Ruim:
 
-### 1. 🧠 O Arquiteto de Software (Fase de Análise & SOLID)
-- **Objetivo**: Estruturar a solução baseada em **SOLID** e **Design Patterns** (Factory, Observer, Singleton).
-- **Ação**: Desacopla regras de negócio da infraestrutura (Injeção de Dependência). Cria repositórios e serviços ao invés de God Classes. Mapeia impactos no projeto.
+```text
+Criar tabela de leads.
+```
 
-### 2. 🛡️ O Hacker Ético / SecOps (Fase de Blindagem & Backend)
-- **Objetivo**: Proteger a fronteira da aplicação e prevenir o OWASP Top 10.
-- **Ação**: 
-  - **Prevenção de IDOR**: Em sistemas Multi-Tenant (SaaS/CRM), *NUNCA* executa queries baseadas apenas no `id`. Obriga a checagem de escopo (`companyId` ou `userId`).
-  - **Validação de Inputs**: Exige schemas estritos (Yup/Zod). Senhas salgadas e em hash.
+Bom:
 
-### 3. 💻 O Especialista Clean Code (Fase de Implementação)
-- **Objetivo**: Escrever o código segundo as regras do *Super Dev*.
-- **Ação**:
-  - **Nomenclatura Significativa**: Sem `x` ou `res`. Use `currentTimestamp`, `calculateTenPercentDiscount`, pronomes como `isActive` e `getUserById`.
-  - **Funções Limpas**: Máximo de 20 linhas. Um nível de abstração. Early Returns / Bouncer Pattern (isolar erros logo no início).
-  - **Comentários**: Explicam o "porquê", não o "o que".
-  - **Estado Frontend**: Hooks limpos, carregamento (`loading`) e tratativa de erro explícita no React.
+```text
+Garantir que nenhum lead fique sem follow-up.
+```
 
-### 4. 🔥 O Engenheiro do Caos (Fase de Resiliência)
-- **Objetivo**: Garantir que o sistema sobreviva a falhas externas.
-- **Ação**:
-  - **Fallbacks e Tratamento de Erro**: O sistema não "crasha" se a IA demorar. Exige `try/catch` cirúrgicos. Cria classes de erro específicas (ex: `UserNotFoundError`).
-  - **Performance (Big O)**: Analisa gargalos de loop (evita `O(n²)` quando um mapa `O(n)` resolve). Usa Memoization onde faz sentido.
+O agente deve entender o objetivo, respeitar o contexto do projeto, planejar antes de construir, validar antes de entregar e parar nos checkpoints.
 
-### 5. 🧪 O SDET / QA Revisor (Fase de Testes & CI/CD)
-- **Objetivo**: Atestar qualidade e refatorar sem piedade.
-- **Ação**:
-  - Exige a estrutura de testes AAA (Arrange, Act, Assert).
-  - Garante os Commits Semânticos (`feat:`, `fix:`, `refactor:`).
-  - Caça a Smells (código duplicado, variáveis órfãs).
+## Estrutura
 
----
+```text
+/skills
+  00-🧠-SUPERDEV.md
+  01-💡-IDEIA.md
+  02-📋-PLANO.md
+  03-🔨-CONSTRUIR.md
+  04-🧪-TESTAR.md
+  05-📦-ENTREGAR.md
 
-## 🔄 O Fluxo de Trabalho Obrigatório
-Sempre que convocado a atuar com esta skill, siga estruturadamente os seguintes passos na sua resposta:
+/ai/context
+  vision.md
+  business-rules.md
+  sales-process.md
+  architecture.md
+  decision-log.md
+  mission-template.md
 
-1. **[WAR ROOM / ANÁLISE INICIAL]**: Crie um bloco de pensamento detalhando as decisões do Arquiteto (SOLID) e do Hacker Ético (Blindagem).
-2. **[IMPLEMENTAÇÃO SEGURO & CLEAN]**: Escreva a implementação com Bouncers, nomes expressivos e funções pequenas. Se envolver banco, injete as proteções de Tenant.
-3. **[AUTO-REFATORAÇÃO]**: Passe a lupa do QA e Performance. Otimizou loops? Melhorou a UX?
-4. **[ENTREGA DO SENIOR]**: Confirme os próximos passos e entregue um código impecável.
+/docs
+  audit-superdev-v1.md
+  uso-codex.md
+  uso-claude-code.md
+  uso-cursor.md
+  uso-windsurf.md
+
+/examples
+  fluxo-completo.md
+  goal-follow-up-leads.md
+  goal-corrigir-login.md
+```
+
+## Como usar
+
+### 1. Transformar objetivo em especificacao
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+01-💡-IDEIA
+
+GOAL:
+Garantir que nenhum lead fique sem follow-up.
+```
+
+Ao final, o agente deve parar e pedir aprovacao.
+
+### 2. Criar plano tecnico
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+02-📋-PLANO
+
+Especificacao aprovada:
+[cole ou referencie a especificacao]
+```
+
+Ao final, o agente deve parar e pedir aprovacao.
+
+### 3. Construir
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+03-🔨-CONSTRUIR
+
+Plano aprovado:
+[cole ou referencie o plano]
+```
+
+O agente executa somente o plano aprovado.
+
+### 4. Testar
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+04-🧪-TESTAR
+
+Entrega para validar:
+[cole resumo, diff ou referencia dos arquivos]
+```
+
+O agente procura bugs, regressoes, falhas de regra de negocio, UX, seguranca e inconsistencias tecnicas.
+
+### 5. Entregar
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+05-📦-ENTREGAR
+
+Missao:
+[cole objetivo, plano, implementacao e testes]
+```
+
+O agente fecha a missao com relatorio final.
+
+## Regras de ouro
+
+- Uma etapa por vez.
+- Contexto antes de codigo.
+- Objetivo de negocio antes de tarefa tecnica.
+- Simples antes de sofisticado.
+- Nenhum escopo novo durante a construcao.
+- Nenhum arquivo fora da missao.
+- Validar inputs, proteger escopo por `userId`/`companyId` quando aplicavel e nunca expor segredos.
+- Testar sempre que houver implementacao.
+
+## Quando usar cada skill
+
+| Skill | Quando usar | Implementa codigo? |
+| --- | --- | --- |
+| `00-🧠-SUPERDEV` | Sempre, como governanca da missao | Nao |
+| `01-💡-IDEIA` | Quando existe um objetivo ainda bruto | Nao |
+| `02-📋-PLANO` | Quando a especificacao ja foi aprovada | Nao |
+| `03-🔨-CONSTRUIR` | Quando o plano tecnico ja foi aprovado | Sim |
+| `04-🧪-TESTAR` | Depois da implementacao ou para validar uma entrega | Nao, salvo correcao explicitamente pedida |
+| `05-📦-ENTREGAR` | Para fechar a missao com relatorio final | Nao |
+
+## Filosofia
+
+SuperDev 2.0 nao e um framework academico.
+
+E um modo de trabalhar:
+
+1. Entender.
+2. Planejar.
+3. Construir.
+4. Testar.
+5. Entregar.
+
+Com calma, clareza e checkpoints.

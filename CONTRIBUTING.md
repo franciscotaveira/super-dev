@@ -1,78 +1,48 @@
-# Contribuindo para Super Dev Skills
+# Contribuindo para o SuperDev 2.0
 
-## 🤝 Como Contribuir
+Obrigado por melhorar o SuperDev.
 
-### Antes de começar
-1. Faça um fork do repositório
-2. Clone o seu fork: `git clone git@github.com:seu-username/super-dev.git`
-3. Adicione o repositório original como upstream: `git remote add upstream git@github.com:franciscotaveira/super-dev.git`
+Este repositorio deve continuar simples, modular e facil de usar no dia a dia.
 
-### Fluxo de contribuição
+## Principios para contribuicoes
 
-1. **Crie uma branch** para sua feature/fix:
-   ```bash
-   git checkout -b feat/sua-feature
-   ```
+- Preserve a nomenclatura visual em `/skills`.
+- Mantenha uma etapa por arquivo.
+- Evite transformar o projeto em framework academico.
+- Prefira exemplos praticos a explicacoes longas.
+- Nao adicione dependencias sem necessidade clara.
+- Preserve seguranca, Clean Code e validacao.
 
-2. **Faça suas mudanças** mantendo a qualidade:
-   - Siga o estilo de código existente
-   - Adicione documentação
-   - Inclua exemplos práticos
+## Antes de abrir PR
 
-3. **Commit com mensagens semânticas**:
-   ```bash
-   git commit -m "feat: adicionar novo exemplo de pattern"
-   git commit -m "docs: melhorar documentação"
-   ```
+- A mudanca respeita o fluxo `IDEIA -> PLANO -> CONSTRUIR -> TESTAR -> ENTREGAR`?
+- A mudanca reduz carga cognitiva?
+- A mudanca evita escopo novo escondido?
+- O README continua ensinando o uso principal rapidamente?
+- Exemplos continuam curtos e operacionais?
 
-4. **Push para seu fork**:
-   ```bash
-   git push origin feat/sua-feature
-   ```
+## Commits
 
-5. **Abra um Pull Request**:
-   - Descreva suas mudanças claramente
-   - Referencie issues relacionadas
-   - Espere revisão
+Use commits semanticos quando possivel:
 
-## 📋 Tipos de Contribuição
+```text
+feat: adicionar exemplo de missao
+docs: ajustar guia do Codex
+fix: corrigir criterio de aceite da skill TESTAR
+refactor: simplificar texto da skill PLANO
+```
 
-### ✍️ Documentação
-- Melhorar textos existentes
-- Adicionar novos exemplos
-- Corrigir erros ortográficos
-- Traduzir para outras línguas
+## O que evitar
 
-### 💻 Código
-- Adicionar novos exemplos
-- Criar projetos práticos
-- Melhorar exemplos existentes
-- Adicionar suporte para novas linguagens
+- Skills grandes demais.
+- Checklists duplicadas em varios lugares.
+- Jargoes que nao ajudam a executar.
+- Regras absolutas que impedem bom senso.
+- Refatoracao estetica sem ganho operacional.
 
-### 🐛 Correções
-- Corrigir erros
-- Melhorar qualidade
-- Atualizar informações desatualizadas
+## Fluxo sugerido
 
-### 🚀 Novos Recursos
-- Novas seções
-- Novos projetos
-- Novas checklists
-- Novos roadmaps
-
-## ✅ Checklist para PR
-
-- [ ] Código segue o estilo existente
-- [ ] Documentação está clara
-- [ ] Exemplos funcionam
-- [ ] Sem erros ortográficos
-- [ ] Commits têm mensagens semânticas
-- [ ] Referência issues se aplicável
-
-## 📞 Precisa de ajuda?
-
-- Abra uma issue para discutir antes
-- Veja issues existentes
-- Pergunte na comunidade
-
-**Obrigado por contribuir! 🙏**
+1. Crie uma branch curta.
+2. Faca uma mudanca pequena.
+3. Valide os exemplos afetados.
+4. Abra PR explicando objetivo, arquivos alterados e riscos.
