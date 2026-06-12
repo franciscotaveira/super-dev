@@ -1,6 +1,47 @@
 # Uso no Codex
 
-## Como chamar
+## Importante sobre o `@`
+
+O `@` do Codex nao lista arquivos Markdown soltos do repositorio.
+
+Para aparecer no seletor, a skill precisa estar em formato Codex:
+
+```text
+nome-da-skill/
+  SKILL.md
+```
+
+Por isso este repositorio tem duas camadas:
+
+- `/skills`: nomenclatura visual oficial do SuperDev 2.0.
+- `/codex-skills`: aliases compativeis com o `@` do Codex.
+
+## Como chamar com `@`
+
+Use:
+
+```text
+@superdev
+@superdev-ideia
+
+GOAL:
+[seu objetivo de negocio]
+```
+
+Depois:
+
+```text
+@superdev
+@superdev-plano
+```
+
+E continue com:
+
+- `@superdev-construir`
+- `@superdev-testar`
+- `@superdev-entregar`
+
+## Como chamar sem `@`
 
 Cole no Codex:
 
@@ -16,9 +57,15 @@ GOAL:
 
 Depois aprove a etapa e chame a proxima skill.
 
-## Recomendacao
+## Instalacao local dos aliases
 
-Mantenha as skills em `/skills` no repositorio do projeto ou copie o conteudo para uma skill local do Codex quando quiser uso recorrente.
+Copie as pastas de `/codex-skills` para sua pasta local de skills do Codex:
+
+```text
+C:\Users\SEU_USUARIO\.codex\skills
+```
+
+Depois abra uma nova conversa/sessao do Codex para recarregar a lista de skills.
 
 ## Fluxo recomendado
 

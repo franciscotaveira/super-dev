@@ -52,9 +52,46 @@ O agente deve entender o objetivo, respeitar o contexto do projeto, planejar ant
   fluxo-completo.md
   goal-follow-up-leads.md
   goal-corrigir-login.md
+
+/codex-skills
+  superdev/
+  superdev-ideia/
+  superdev-plano/
+  superdev-construir/
+  superdev-testar/
+  superdev-entregar/
 ```
 
 ## Como usar
+
+### No Codex com `@`
+
+O seletor `@` do Codex precisa de nomes de skill simples, sem emoji.
+
+Por isso, use os aliases em `/codex-skills`:
+
+```text
+@superdev
+@superdev-ideia
+
+GOAL:
+Garantir que nenhum lead fique sem follow-up.
+```
+
+Depois:
+
+```text
+@superdev
+@superdev-plano
+```
+
+E siga com:
+
+- `@superdev-construir`
+- `@superdev-testar`
+- `@superdev-entregar`
+
+Os arquivos em `/skills` continuam sendo a nomenclatura visual oficial.
 
 ### 1. Transformar objetivo em especificacao
 
@@ -147,6 +184,17 @@ O agente fecha a missao com relatorio final.
 | `03-🔨-CONSTRUIR` | Quando o plano tecnico ja foi aprovado | Sim |
 | `04-🧪-TESTAR` | Depois da implementacao ou para validar uma entrega | Nao, salvo correcao explicitamente pedida |
 | `05-📦-ENTREGAR` | Para fechar a missao com relatorio final | Nao |
+
+## Aliases para Codex
+
+| Skill visual | Alias para `@` |
+| --- | --- |
+| `00-🧠-SUPERDEV` | `@superdev` |
+| `01-💡-IDEIA` | `@superdev-ideia` |
+| `02-📋-PLANO` | `@superdev-plano` |
+| `03-🔨-CONSTRUIR` | `@superdev-construir` |
+| `04-🧪-TESTAR` | `@superdev-testar` |
+| `05-📦-ENTREGAR` | `@superdev-entregar` |
 
 ## Filosofia
 
