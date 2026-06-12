@@ -2,6 +2,20 @@
 
 Copie este modelo para iniciar uma missao SuperDev 2.0.
 
+## 00-🧭-PROCESSO
+
+Use quando nao souber qual etapa chamar ou quando precisar retomar uma missao.
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+00-🧭-PROCESSO
+
+PEDIDO:
+[explique o que voce quer fazer ou onde parou]
+```
+
 ## 01-💡-IDEIA
 
 ```text

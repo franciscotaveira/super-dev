@@ -18,6 +18,18 @@ Por isso este repositorio tem duas camadas:
 
 ## Como chamar com `@`
 
+Quando nao souber qual etapa usar:
+
+```text
+@superdev
+@superdev-processo
+
+PEDIDO:
+[explique o que voce quer fazer ou onde parou]
+```
+
+Quando ja souber que quer comecar por uma ideia:
+
 Use:
 
 ```text
@@ -37,6 +49,7 @@ Depois:
 
 E continue com:
 
+- `@superdev-processo`
 - `@superdev-construir`
 - `@superdev-testar`
 - `@superdev-entregar`
@@ -69,11 +82,12 @@ Depois abra uma nova conversa/sessao do Codex para recarregar a lista de skills.
 
 ## Fluxo recomendado
 
-1. `00-🧠-SUPERDEV` + `01-💡-IDEIA`
-2. `00-🧠-SUPERDEV` + `02-📋-PLANO`
-3. `00-🧠-SUPERDEV` + `03-🔨-CONSTRUIR`
-4. `00-🧠-SUPERDEV` + `04-🧪-TESTAR`
-5. `00-🧠-SUPERDEV` + `05-📦-ENTREGAR`
+1. `00-🧠-SUPERDEV` + `00-🧭-PROCESSO` quando precisar se orientar.
+2. `00-🧠-SUPERDEV` + `01-💡-IDEIA`
+3. `00-🧠-SUPERDEV` + `02-📋-PLANO`
+4. `00-🧠-SUPERDEV` + `03-🔨-CONSTRUIR`
+5. `00-🧠-SUPERDEV` + `04-🧪-TESTAR`
+6. `00-🧠-SUPERDEV` + `05-📦-ENTREGAR`
 
 ## Dica operacional
 

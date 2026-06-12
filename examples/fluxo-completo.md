@@ -1,5 +1,27 @@
 # Exemplo: fluxo completo
 
+## 0. Processo
+
+Use quando nao souber qual etapa chamar ou quando estiver retomando uma missao.
+
+```text
+Use:
+00-🧠-SUPERDEV
++
+00-🧭-PROCESSO
+
+PEDIDO:
+Quero garantir follow-up de leads, mas nao sei se isso e tela, banco ou regra de negocio.
+```
+
+Resultado esperado:
+
+- estado da missao
+- contexto disponivel
+- proxima etapa recomendada
+- o que nao sera feito agora
+- ponto de parada
+
 ## 1. Ideia
 
 ```text

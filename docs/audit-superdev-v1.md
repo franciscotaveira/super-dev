@@ -57,6 +57,7 @@ Isso aumentava carga cognitiva e incentivava o agente a fazer varias etapas na m
 A v2 foi reorganizada em seis skills pequenas:
 
 - `00-🧠-SUPERDEV.md`: governanca.
+- `00-🧭-PROCESSO.md`: orientacao do fluxo e retomada de missao.
 - `01-💡-IDEIA.md`: objetivo para especificacao.
 - `02-📋-PLANO.md`: especificacao para plano.
 - `03-🔨-CONSTRUIR.md`: plano para implementacao.

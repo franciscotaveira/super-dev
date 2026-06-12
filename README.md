@@ -27,6 +27,7 @@ O agente deve entender o objetivo, respeitar o contexto do projeto, planejar ant
 ```text
 /skills
   00-🧠-SUPERDEV.md
+  00-🧭-PROCESSO.md
   01-💡-IDEIA.md
   02-📋-PLANO.md
   03-🔨-CONSTRUIR.md
@@ -55,6 +56,7 @@ O agente deve entender o objetivo, respeitar o contexto do projeto, planejar ant
 
 /codex-skills
   superdev/
+  superdev-processo/
   superdev-ideia/
   superdev-plano/
   superdev-construir/
@@ -69,6 +71,16 @@ O agente deve entender o objetivo, respeitar o contexto do projeto, planejar ant
 O seletor `@` do Codex precisa de nomes de skill simples, sem emoji.
 
 Por isso, use os aliases em `/codex-skills`:
+
+```text
+@superdev
+@superdev-processo
+
+PEDIDO:
+Quero melhorar o CRM, mas nao sei se comeco por regra de negocio, tela ou banco.
+```
+
+Quando voce ja sabe que precisa transformar um objetivo em especificacao, use direto:
 
 ```text
 @superdev
@@ -87,6 +99,7 @@ Depois:
 
 E siga com:
 
+- `@superdev-processo` quando precisar se orientar ou retomar
 - `@superdev-construir`
 - `@superdev-testar`
 - `@superdev-entregar`
@@ -179,6 +192,7 @@ O agente fecha a missao com relatorio final.
 | Skill | Quando usar | Implementa codigo? |
 | --- | --- | --- |
 | `00-🧠-SUPERDEV` | Sempre, como governanca da missao | Nao |
+| `00-🧭-PROCESSO` | Quando precisar escolher ou retomar a proxima etapa | Nao |
 | `01-💡-IDEIA` | Quando existe um objetivo ainda bruto | Nao |
 | `02-📋-PLANO` | Quando a especificacao ja foi aprovada | Nao |
 | `03-🔨-CONSTRUIR` | Quando o plano tecnico ja foi aprovado | Sim |
@@ -190,6 +204,7 @@ O agente fecha a missao com relatorio final.
 | Skill visual | Alias para `@` |
 | --- | --- |
 | `00-🧠-SUPERDEV` | `@superdev` |
+| `00-🧭-PROCESSO` | `@superdev-processo` |
 | `01-💡-IDEIA` | `@superdev-ideia` |
 | `02-📋-PLANO` | `@superdev-plano` |
 | `03-🔨-CONSTRUIR` | `@superdev-construir` |
